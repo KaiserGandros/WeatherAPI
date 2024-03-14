@@ -1,0 +1,92 @@
+nav{
+  background-color: rgb(8, 120, 233);
+  color:white;
+  padding: 30px;
+  text-align:center;
+  font-size: 40px;
+  width:auto;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
+  font-family: sans-serif;
+  text-align: center;
+  color: black;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.container{
+  padding: 50px;
+}
+
+h1, h3,
+h4 {
+  font-family: sans-serif;
+  text-align: center;
+  color: black;
+}
+
+.card-deck {
+    padding-top: 5%;
+    width:1000px;
+}
+
+.card{
+  background:rgb(8, 120, 233);
+  border: 3px solid white;
+  border-radius: 2px;
+}
+
+.input-btn {
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+#search-btn {
+  padding: 5%;
+  border: 3px solid white;
+  border-radius: 2px;
+  color: black;
+  background-color: rgb(4, 65, 126);
+}
+
+.cityButton {
+  background-color: rgb(4, 65, 126);
+  color: black;
+  width: 100%;
+  padding: 5%;
+  margin-top: 10px;
+  border: 3px solid white;
+  border-radius: 2px;
+
+}
+
+#weather-panel {
+  background-color: rgb(8, 120, 233);
+  margin:10px;
+  border: 3px solid white;
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 1130px) {
+  main, header {
+    flex-direction: column;
+  }
+
+  body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+  }
+
+  .flex-container {
+    display: flex;
+    width:900px;
+}
+
+}
