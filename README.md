@@ -6,3 +6,4 @@ This application allows users to enter in a city of their choice inorder to see 
 ## Tech usage
 This project was made with HTML, CSS, Bootstrap, the OpenWeather api and Javascript.
 ## Deployed application
+https://kaisergandros.github.io/WeatherAPI/
